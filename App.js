@@ -3,11 +3,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import AlvaradoScreen  from './src/AlvaradoScreen';
 import ProfileScreen  from './src/ProfileScreen';
-
+import ConverScreen from './src/ConverScreen.js';
 export default function App() {
   return (
     // <AlvaradoScreen/>
-    <ProfileScreen/>
+    // <ProfileScreen/>
+    <ConverScreen/>
   );
 }
 
