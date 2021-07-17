@@ -47,7 +47,7 @@ const OverviewScreen = () => {
             marginTop: 20,
           }}
         >
-          <Text style={{ fontSize: 25, fontWeight: "bold" }}>Hira Riaz</Text>
+          <Text style={{ fontSize: 25, fontWeight: "bold", color:"#3B4483" }}>Hira Riaz</Text>
           <Text style={{ fontSize: 10 }}>UX / UI Deigner</Text>
         </View>
 
