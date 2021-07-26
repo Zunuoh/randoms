@@ -7,14 +7,16 @@ import ConverScreen from './src/ConverScreen.js';
 import LoginScreen from './src/transactions/Login';
 import OverviewScreen from './src/transactions/Overview';
 import PaymentScreen from './src/transactions/payment';
+import LoginScreen2 from './src/recipes/LoginScreen';
 export default function App() {
   return (
     // <AlvaradoScreen/>
     // <ProfileScreen/>
     // <ConverScreen/>
     // <LoginScreen/>
-    <OverviewScreen/>
+    // <OverviewScreen/>
     // <PaymentScreen/>
+       <LoginScreen2/>
   );
 }
 
