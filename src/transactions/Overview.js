@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
 import { Feather } from "@expo/vector-icons";
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
 const OverviewScreen = () => {
   return (
@@ -47,50 +48,50 @@ const OverviewScreen = () => {
             marginTop: 20,
           }}
         >
-          <Text style={{ fontSize: 25, fontWeight: "bold", color:"#3B4483" }}>Hira Riaz</Text>
-          <Text style={{ fontSize: 10 }}>UX / UI Deigner</Text>
+          <Text style={{ fontSize: RFValue(25), fontWeight: "bold", color:"#3B4483" }}>Hira Riaz</Text>
+          <Text style={{ fontSize: RFValue(10) }}>UX / UI Deigner</Text>
         </View>
 
         <View
           style={{
             flexDirection: "row",
             justifyContent: "space-between",
-            paddingLeft: 50,
-            paddingRight: 50,
+            paddingLeft: RFValue(50),
+            paddingRight: RFValue(50),
             paddingTop: 30,
           }}
         >
           <View>
-            <Text style={{ fontSize: 20, color: "#3E4685", fontWeight: "500" }}>
+            <Text style={{ fontSize: RFValue(15), color: "#3E4685", fontWeight: "500" }}>
               $8900
             </Text>
-            <Text style={{ paddingTop: 10, fontSize: 10 }}>Income</Text>
+            <Text style={{ paddingTop: 10, fontSize: RFValue(8) }}>Income</Text>
           </View>
           <View>
-            <Text style={{ fontSize: 20, color: "#3E4685", fontWeight: "500" }}>
+            <Text style={{ fontSize: RFValue(15), color: "#3E4685", fontWeight: "500" }}>
               $8900
             </Text>
-            <Text style={{ paddingTop: 10, fontSize: 10 }}>Expenses</Text>
+            <Text style={{ paddingTop: 10, fontSize: RFValue(8) }}>Expenses</Text>
           </View>
           <View>
-            <Text style={{ fontSize: 20, color: "#3E4685", fontWeight: "500" }}>
+            <Text style={{ fontSize: RFValue(15), color: "#3E4685", fontWeight: "500" }}>
               $8900
             </Text>
-            <Text style={{ paddingTop: 10, fontSize: 10 }}>Loan</Text>
+            <Text style={{ paddingTop: RFValue(8), fontSize: 10 }}>Loan</Text>
           </View>
         </View>
       </View>
 
       <View style={{ flexDirection: "row", marginTop: 30 }}>
         <View>
-          <Text style={{ fontSize: 30, fontWeight: "bold", color: "#3E4685" }}>
+          <Text style={{ fontSize: RFValue(25), fontWeight: "bold", color: "#3E4685" }}>
             Overview
           </Text>
         </View>
         <View style={{ paddingLeft: 10, paddingTop: 8 }}>
           <Feather name="bell" size={20} color="black" />
         </View>
-        <View style={{ paddingTop: 8, marginLeft: 160 }}>
+        <View style={{ paddingTop: 8, marginLeft: RFValue(118) }}>
           <Text style={{ fontWeight: "bold", color: "#3E4685" }}>
             Sept 13, 2020
           </Text>
@@ -123,11 +124,11 @@ const OverviewScreen = () => {
           </View>
 
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
-            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Sent</Text>
+            <Text style={{ fontSize: RFValue(15), fontWeight: "bold" }}>Sent</Text>
             <Text>Sending payment to client</Text>
           </View>
 
-          <View style={{ paddingTop: 28, paddingLeft: 90 }}>
+          <View style={{ paddingTop: 28, paddingLeft: RFValue(75) }}>
             <Text style={{ fontWeight: "bold" }}>$150</Text>
           </View>
         </View>
@@ -157,11 +158,11 @@ const OverviewScreen = () => {
           </View>
 
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
-            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Receive</Text>
+            <Text style={{ fontSize: RFValue(15), fontWeight: "bold" }}>Receive</Text>
             <Text>Receiving salary from work</Text>
           </View>
 
-          <View style={{ paddingTop: 28, paddingLeft: 90 }}>
+          <View style={{ paddingTop: 28, paddingLeft: RFValue(72) }}>
             <Text style={{ fontWeight: "bold" }}>$250</Text>
           </View>
         </View>
@@ -191,11 +192,11 @@ const OverviewScreen = () => {
           </View>
 
           <View style={{ justifyContent: "center", marginLeft: 10 }}>
-            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Loan</Text>
+            <Text style={{ fontSize: RFValue(15), fontWeight: "bold" }}>Loan</Text>
             <Text>Loan for the car</Text>
           </View>
 
-          <View style={{ paddingTop: 28, paddingLeft: 150 }}>
+          <View style={{ paddingTop: 28, paddingLeft: RFValue(122) }}>
             <Text style={{ fontWeight: "bold" }}>$400</Text>
           </View>
         </View>
